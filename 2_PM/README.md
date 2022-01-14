@@ -6,14 +6,14 @@ Let's build a basic website with HTML and CSS!
 
 Your website must include the following elements:
 
-- at least 4 separate pages
-- one table
-- three images
-- a navigation bar where you can access every page
-- two clickable images
-- four links to external pages
-- one bulleted list
-- two numbered lists
+x- at least 4 separate pages
+x- one table
+x- three images
+x- a navigation bar where you can access every page
+x- two clickable images
+x- four links to external pages
+x- one bulleted list
+x- two numbered lists
 
 Check out W3 Schools [HTML](https://www.w3schools.com/html/default.asp) or [CSS](https://www.w3schools.com/css/default.asp) tutorials if you're unsure of how do something. For now, we'll just separate our pages into different HTML files. One of them, index.html, is already created for you and should act as the "Home" page. You can just use one CSS file. To link to another page, just use an anchor tag with an href value of FILENAME.html.
 

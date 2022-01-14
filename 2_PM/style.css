@@ -1,0 +1,37 @@
+nav {
+    background: rgb(97, 161, 103);
+    padding: 0 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.flex-container > li {
+    width: 100px;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+}
+
+.center {
+    margin: auto;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%
+}
+
+th {
+    text-align: left;
+}

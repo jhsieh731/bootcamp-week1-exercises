@@ -10,11 +10,22 @@ const assert = require('assert')
  */
 
 const hasFalsyValue = obj => {
+  for (let key in obj ) {
+    if (typeof obj[key] === "object") {
+      // console.log("found object");
+      return hasFalsyValue(obj[key]);
+    }
+    else if (!(obj[key])) {
+      // console.log("base case " + obj[key])
+      return true;
+    }
+  }
+  return false;
 };
 
 const falsyObj = {
   hi: "I am falsy somewhere...",
-  "i'm an number": 23,
+  "i'm a number": 23,
   "i'm a boolean": true,
   "i'm an object": {
     aint: 'nuthin to look at here...',

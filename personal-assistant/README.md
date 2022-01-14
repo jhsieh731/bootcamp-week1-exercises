@@ -5,11 +5,11 @@ Over the next few days we'll be learning all about React. To apply what we'll le
 To run the App, first install the required dependencies with `npm i`. Then, just type `npm run dev` into the terminal, and then go to [http://localhost:3000](http://localhost:3000) to view it in the browser. To get linting working, make sure you open VSCode with the personal-assistant folder at the top level (`code personal-assistant`), and work from there.
 
 **JUMP TO EXERCISES**
-- [Day 2 AM](#day-2-am-app-planning)
-- [Day 2 PM](#day-2-pm-styling)
-- [Day 3 AM](#day-3-am-adding-functionality)
-- [Day 3 PM](#day-3-pm-greeting-page)
-- [Day 4 AM](#day-4-am-putting-it-together)
+- [Day 3 AM](#day-3-am-app-planning)
+- [Day 3 PM](#day-3-pm-styling)
+- [Day 4 AM](#day-4-am-adding-functionality)
+- [Day 4 PM](#day-4-pm-greeting-page)
+- [Day 5 AM](#day-5-am-putting-it-together)
 - [Deployment](#deployment)
 
 ### Day 3 AM: App Planning

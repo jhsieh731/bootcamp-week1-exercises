@@ -1,10 +1,35 @@
 import React from 'react'
-// import COMPONENT from 'FILEPATH'
+import Greeting from './components/Greeting'
+import TodoContainer from './components/todo/TodoContainer'
+import {Switch, Route} from 'react-router-dom'
+import NavBar from './components/navbar/NavBar'
+import TodoItem from './components/todo/TodoItem'
+import { Provider } from './TasksContext'
+// import { nanoid } from 'nanoid'
 
-const App = () => (
-  <div>
-    Beep boop. Hi there, I&apos;m your personal assistant :D
-  </div>
-)
+
+const App = () => {
+  return (
+    <Provider>
+      <div>
+      <NavBar/>
+      <Switch>
+        <Route path="/todo/:id">
+          <TodoItem/>
+        </Route>
+        <Route path="/todo">
+          <TodoContainer/>
+        </Route>
+        <Route path="/">
+          <Greeting/>
+        </Route>
+      </Switch>
+    </div>
+    </Provider>
+  )
+}
+
 
 export default App
+
+
